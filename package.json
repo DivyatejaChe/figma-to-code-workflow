@@ -1,0 +1,16 @@
+{
+  "name": "figma-to-code-workflow",
+  "version": "1.0.0",
+  "description": "- In this project, we will see how FIGMA Variables (that stores design tokens) are exported from FIGMA to Code using FIGMA API and Style-Dictionary",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "style-dictionary build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "style-dictionary": "^3.8.0"
+  }
+}
